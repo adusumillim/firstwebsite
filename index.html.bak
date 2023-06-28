@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>Launch</title>
-    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
     <meta http-equiv="Content-Style-Type" content="text/css">
     <meta name="generator" content="thesitewizard.com's Layout Wizard 3.0.1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="all" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="tswnavbar.css" />
-
+    <link rel="stylesheet" type="text/css" href="tswnavbar.css">
   </head>
   <body>
     <div id="tswcontainer">
       <div id="tswcontent">
-        <div id="tswcontproper">
-          <!-- start of content column: insert your content here -->
+        <div id="tswcontproper"> <!-- start of content column: insert your content here -->
           <h1>About Me</h1>
           <p> Hi! I'm Meena, here's a little about me:</p>
           <p> -I like cheese, just like Nishta </p>
@@ -32,14 +30,24 @@
           <p> Go check out Nishta's cheese page
             <!-- end of side column: put your navigation menu, etc, above this line -->
           </p>
+          <div id="tswcssbuttons">
+            <ul>
+              &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+              <li><a href="index.html">About Me </a></li>
+              <li><a href="myfamily.html">My Family </a></li>
+              <li><a href="sitemap.html">My Academics </a></li>
+              <li><a href="https://users.wpi.edu/%7Enkumar3/"> nishta's page </a></li>
+             
+            </ul>
+            <div style="clear: both;"></div>
+            <div id="tswfooter"> hello
+              <!-- start of footer section: insert your copyright notice, etc, here -->
+              <p> Check out some other pages!
+                <!-- end of footer section: insert your copyright notice, etc, above this line -->
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div style="clear: both;"></div>
-      <div id="tswfooter">
-        <!-- start of footer section: insert your copyright notice, etc, here -->
-        <p> Check out some other pages!
-          <!-- end of footer section: insert your copyright notice, etc, above this line -->
-        </p>
       </div>
     </div>
   </body>
