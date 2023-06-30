@@ -34,6 +34,7 @@ let question = {
   // function for showing the question
 function showQuestion() {
     // code
+    count = dice.roll();
     let q = questions[count]
     let titleDiv = document.getElementById('title');
     titleDiv.textContent = q.title;
@@ -57,10 +58,12 @@ function showQuestion() {
       }
     }, {once: true});
   });
-  count = count +1; 
-  if(count  == 4){
-    count = 0; 
-  }
+
+  //count = count +1; 
+  //if(count  == 4){
+    //count = 0; 
+  //}
 }
+
   // call the function
   showQuestion();
